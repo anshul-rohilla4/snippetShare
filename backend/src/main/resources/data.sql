@@ -1,0 +1,4 @@
+INSERT INTO snippet (title, description, code) VALUES
+                                                   ('React State Hook', 'A basic example of using the useState hook in a React functional component.', 'const [count, setCount] = useState(0);'),
+                                                   ('Java For-Each Loop', 'How to iterate over a list of strings using a for-each loop in Java.', 'List<String> names = Arrays.asList("Alice", "Bob", "Charlie");for (String name : names) {  System.out.println(name);}'),
+                                                   ('CSS Flexbox Centering', 'A simple CSS snippet to center a div both horizontally and vertically using Flexbox.', '.container {  display: flex;  justify-content: center;  align-items: center;  height: 100vh;}');
