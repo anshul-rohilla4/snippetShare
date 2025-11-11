@@ -23,12 +23,12 @@ public class SnippetService {
         return snippetRepo.findAll();
     }
 
-    public Snippet getSnippetById(Long id){
+    public Snippet getSnippetById(String id){
         return snippetRepo.findById(id)
                 .orElseThrow(()->new RuntimeException("Snippet not found, id: "+id));
     }
 
-    public void delSnippetById(Long id){
+    public void delSnippetById(String id){
         if( !snippetRepo.existsById(id)){
             throw new ResourceNotFoundException("Snippet not found with id: "+id );
         }

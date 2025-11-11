@@ -12,7 +12,6 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/snippets")
 @CrossOrigin(origins = "http://localhost:5173")
-
 public class SnippetController {
 
     @Autowired
@@ -29,12 +28,12 @@ public class SnippetController {
     }
 
     @GetMapping("/{id}")
-    public Snippet getSnippetById(@PathVariable Long id){
+    public Snippet getSnippetById(@PathVariable String id){
         return snippetService.getSnippetById(id);
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<Void> deleteSnippetById(@PathVariable Long id){
+    public ResponseEntity<Void> deleteSnippetById(@PathVariable String id){
         snippetService.delSnippetById(id);
         return ResponseEntity.noContent().build();
     }

@@ -7,6 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SnippetShareApplication {
 
 	public static void main(String[] args) {
+
+
 		SpringApplication.run(SnippetShareApplication.class, args);
 	}
 
