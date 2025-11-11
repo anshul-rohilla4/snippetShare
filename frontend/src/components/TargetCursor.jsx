@@ -3,7 +3,7 @@ import { gsap } from "gsap";
 
 const TargetCursor = ({
   targetSelector = ".cursor-target",
-  spinDuration = 8,
+  spinDuration = 9,
   hideDefaultCursor = true,
 }) => {
   const cursorRef = useRef(null);
@@ -343,7 +343,7 @@ const TargetCursor = ({
     >
       <div
         ref={dotRef}
-        className="absolute left-1/2 top-1/2 w-1 h-1 bg-gray-600 rounded-full transform -translate-x-1/2 -translate-y-1/2"
+        className="absolute left-1/2 top-1/2 w-1 h-1 bg-white rounded-full transform -translate-x-1/2 -translate-y-1/2"
         style={{ willChange: "transform" }}
       />
       <div

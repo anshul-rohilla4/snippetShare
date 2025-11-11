@@ -4,7 +4,6 @@ import { useState } from 'react';
 import SnippetService from '../services/SnippetService';
 import { motion, AnimatePresence } from 'framer-motion'; 
 import { useInView } from 'react-intersection-observer'; 
-import LightRays from './LightRays';
 
 const SnippetForm = ({ onSnippetCreated }) => {
     const [title, setTitle] = useState('');
@@ -63,18 +62,7 @@ const SnippetForm = ({ onSnippetCreated }) => {
                 left: 0, 
                 zIndex: -1 
             }}>
-                <LightRays
-                    raysOrigin="top-center"
-                    raysColor="#609ae6"
-                    raysSpeed={1.3}
-                    lightSpread={0.6}
-                    rayLength={1.1}
-                    followMouse={true}
-                    mouseInfluence={0.03}
-                    noiseAmount={0.2}
-                    distortion={0}
-                    className="custom-rays"
-                />
+                
             </div>
 
             {/* Success Message */}

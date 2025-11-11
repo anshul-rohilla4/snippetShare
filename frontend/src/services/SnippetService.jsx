@@ -14,10 +14,15 @@ const createSnippet = (snippet) => {
     return axios.post(`${API_BASE_URL}/new`, snippet);
 }
 
+const deleteSnippet = (id) => {
+    return axios.delete(`${API_BASE_URL}/${id}`);
+};
+
 const SnippetService = {
     getAllSnippets,
     getSnippetById,
-    createSnippet
+    createSnippet,
+    deleteSnippet,
 };
 
 export default SnippetService;
