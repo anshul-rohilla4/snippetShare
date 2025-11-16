@@ -63,11 +63,4 @@ SnippetShare uses a classic, decoupled full-stack architecture:
 
 ---
 
-## 🚀 Getting Started Locally
 
-To run this project on your own machine:
-
-### 1. Clone the Repository
-```bash
-git clone [https://github.com/YOUR_USERNAME/snippetShare.git](https://github.com/YOUR_USERNAME/snippetShare.git)
-cd snippetShare
