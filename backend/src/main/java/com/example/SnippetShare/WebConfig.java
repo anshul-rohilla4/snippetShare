@@ -17,7 +17,8 @@ public class WebConfig {
                 registry.addMapping("/api/**")
                         .allowedOrigins(
                                 "http://localhost:5173",
-                                "https://snippetsshare.netlify.app"
+                                "https://snippetsshare.netlify.app",
+                                "https://6919c7f99bc0596e1dae8e41--snippetsshare.netlify.app"
                         )
                         .allowedMethods("GET", "POST", "PUT", "DELETE");
             }
