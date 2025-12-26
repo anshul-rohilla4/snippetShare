@@ -14,38 +14,6 @@ A simple and efficient web application for developers to create, browse, and man
 
 
 
-\## 📸 Preview
-
-
-
-A "cool" README always needs screenshots! Add 1-2 images here to show off your UI.
-
-
-
-\* \*\*To add images:\*\*
-
-&nbsp;   1.  Take a screenshot and add it to your repo (maybe in an `assets` folder).
-
-&nbsp;   2.  Replace the line below with: `!\[App Screenshot](assets/your-image.png)`
-
-
-
-
-
-\*Homepage view of all snippets\*
-
-
-
-
-
-\*Creating a new snippet\*
-
-
-
----
-
-
-
 \## 📌 Features
 
 
